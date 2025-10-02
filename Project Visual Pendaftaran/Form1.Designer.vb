@@ -25,13 +25,13 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -39,8 +39,8 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.White
-        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label3)
@@ -57,27 +57,19 @@ Partial Class Form1
         Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(163, 363)
+        Me.Button1.Location = New System.Drawing.Point(156, 388)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(142, 42)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "MASUK"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(63, 287)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(342, 26)
-        Me.TextBox2.TabIndex = 5
-        '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(63, 204)
+        Me.TextBox1.Location = New System.Drawing.Point(63, 201)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(342, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(342, 49)
         Me.TextBox1.TabIndex = 4
         '
         'Label4
@@ -92,7 +84,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(59, 254)
+        Me.Label3.Location = New System.Drawing.Point(59, 266)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 20)
         Me.Label3.TabIndex = 2
@@ -128,6 +120,14 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(66, 309)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(342, 49)
+        Me.TextBox2.TabIndex = 7
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -149,11 +149,11 @@ Partial Class Form1
 
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents TextBox2 As TextBox
 End Class
