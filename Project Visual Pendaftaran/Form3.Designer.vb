@@ -46,7 +46,7 @@ Partial Class Form3
         Me.Button9.ForeColor = System.Drawing.SystemColors.Control
         Me.Button9.Location = New System.Drawing.Point(31, 349)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(128, 33)
+        Me.Button9.Size = New System.Drawing.Size(128, 41)
         Me.Button9.TabIndex = 9
         Me.Button9.Text = "Log Out"
         Me.Button9.UseVisualStyleBackColor = False
