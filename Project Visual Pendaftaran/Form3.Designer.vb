@@ -108,9 +108,9 @@ Partial Class Form3
         Me.GroupBox1.Controls.Add(Me.PictureBox2)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(1, 1)
+        Me.GroupBox1.Location = New System.Drawing.Point(1, -17)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(908, 76)
+        Me.GroupBox1.Size = New System.Drawing.Size(908, 94)
         Me.GroupBox1.TabIndex = 11
         Me.GroupBox1.TabStop = False
         '
@@ -128,7 +128,7 @@ Partial Class Form3
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nirmala UI", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(219, 13)
+        Me.Label1.Location = New System.Drawing.Point(219, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(129, 54)
         Me.Label1.TabIndex = 0
