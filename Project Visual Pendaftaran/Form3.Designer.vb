@@ -126,12 +126,13 @@ Partial Class Form3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(753, 22)
+        Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.Location = New System.Drawing.Point(768, 29)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(107, 42)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Log Out"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
