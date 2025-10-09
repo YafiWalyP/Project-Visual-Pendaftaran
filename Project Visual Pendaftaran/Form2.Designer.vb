@@ -88,12 +88,14 @@ Partial Class Form2
         '
         'Button9
         '
+        Me.Button9.BackColor = System.Drawing.Color.Red
+        Me.Button9.ForeColor = System.Drawing.SystemColors.Control
         Me.Button9.Location = New System.Drawing.Point(13, 341)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(128, 33)
         Me.Button9.TabIndex = 4
         Me.Button9.Text = "Log Out"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Button9.UseVisualStyleBackColor = False
         '
         'Button8
         '
