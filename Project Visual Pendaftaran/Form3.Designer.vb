@@ -97,7 +97,7 @@ Partial Class Form3
         Me.Panel1.Controls.Add(Me.Button7)
         Me.Panel1.Location = New System.Drawing.Point(1, 72)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(177, 503)
+        Me.Panel1.Size = New System.Drawing.Size(177, 518)
         Me.Panel1.TabIndex = 10
         '
         'GroupBox1
@@ -136,7 +136,7 @@ Partial Class Form3
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(166, 75)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(743, 500)
+        Me.PictureBox1.Size = New System.Drawing.Size(743, 515)
         Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
         '
@@ -144,7 +144,7 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(909, 576)
+        Me.ClientSize = New System.Drawing.Size(909, 588)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Panel1)
