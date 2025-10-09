@@ -132,9 +132,9 @@ Partial Class Form2
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.Location = New System.Drawing.Point(13, 75)
+        Me.Button5.Location = New System.Drawing.Point(13, 65)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(128, 30)
+        Me.Button5.Size = New System.Drawing.Size(128, 40)
         Me.Button5.TabIndex = 0
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False
