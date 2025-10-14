@@ -18,4 +18,8 @@
             Me.Close()    'tutup form sekarang
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Form5.ShowDialog()
+    End Sub
 End Class
