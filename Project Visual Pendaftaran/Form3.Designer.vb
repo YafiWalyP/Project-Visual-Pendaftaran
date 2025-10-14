@@ -31,7 +31,6 @@ Partial Class Form3
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
@@ -106,7 +105,6 @@ Partial Class Form3
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.SteelBlue
         Me.GroupBox1.Controls.Add(Me.PictureBox2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Location = New System.Drawing.Point(1, -17)
         Me.GroupBox1.Name = "GroupBox1"
@@ -123,16 +121,6 @@ Partial Class Form3
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(768, 29)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 42)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Log Out"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -182,7 +170,6 @@ Partial Class Form3
     Friend WithEvents Button5 As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox

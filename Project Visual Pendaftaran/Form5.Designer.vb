@@ -24,7 +24,6 @@ Partial Class Form5
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button8 = New System.Windows.Forms.Button()
@@ -45,17 +44,17 @@ Partial Class Form5
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -65,7 +64,6 @@ Partial Class Form5
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.SteelBlue
-        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(-2, 2)
@@ -73,16 +71,6 @@ Partial Class Form5
         Me.GroupBox1.Size = New System.Drawing.Size(913, 80)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(748, 18)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 46)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Log Out"
-        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
@@ -297,77 +285,15 @@ Partial Class Form5
         Me.Panel2.Size = New System.Drawing.Size(729, 735)
         Me.Panel2.TabIndex = 25
         '
-        'RichTextBox1
+        'Button2
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(274, 488)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(439, 96)
-        Me.RichTextBox1.TabIndex = 25
-        Me.RichTextBox1.Text = ""
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(274, 433)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox3.TabIndex = 26
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(274, 377)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox4.TabIndex = 27
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(274, 322)
-        Me.TextBox5.Multiline = True
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox5.TabIndex = 28
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(274, 268)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox1.TabIndex = 29
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(274, 208)
-        Me.TextBox6.Multiline = True
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox6.TabIndex = 30
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(274, 159)
-        Me.TextBox7.Multiline = True
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox7.TabIndex = 31
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(274, 110)
-        Me.TextBox8.Multiline = True
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox8.TabIndex = 32
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(274, 62)
-        Me.TextBox9.Multiline = True
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox9.TabIndex = 33
+        Me.Button2.BackColor = System.Drawing.Color.Lime
+        Me.Button2.Location = New System.Drawing.Point(604, 655)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(109, 35)
+        Me.Button2.TabIndex = 35
+        Me.Button2.Text = "NEXT"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label12
         '
@@ -380,15 +306,77 @@ Partial Class Form5
         Me.Label12.TabIndex = 34
         Me.Label12.Text = "BIODATA ORANG TUA/WALI"
         '
-        'Button2
+        'TextBox9
         '
-        Me.Button2.BackColor = System.Drawing.Color.Lime
-        Me.Button2.Location = New System.Drawing.Point(604, 655)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(109, 35)
-        Me.Button2.TabIndex = 35
-        Me.Button2.Text = "NEXT"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.TextBox9.Location = New System.Drawing.Point(274, 62)
+        Me.TextBox9.Multiline = True
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox9.TabIndex = 33
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(274, 110)
+        Me.TextBox8.Multiline = True
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox8.TabIndex = 32
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(274, 159)
+        Me.TextBox7.Multiline = True
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox7.TabIndex = 31
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(274, 208)
+        Me.TextBox6.Multiline = True
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox6.TabIndex = 30
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(274, 268)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox1.TabIndex = 29
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(274, 322)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox5.TabIndex = 28
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(274, 377)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox4.TabIndex = 27
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(274, 433)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(439, 33)
+        Me.TextBox3.TabIndex = 26
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Location = New System.Drawing.Point(274, 488)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(439, 96)
+        Me.RichTextBox1.TabIndex = 25
+        Me.RichTextBox1.Text = ""
         '
         'Form5
         '
@@ -411,7 +399,6 @@ Partial Class Form5
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button8 As Button
