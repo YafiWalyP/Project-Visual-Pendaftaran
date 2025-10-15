@@ -27,11 +27,8 @@ Partial Class Form6
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -52,8 +49,10 @@ Partial Class Form6
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(0, 1)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1038, 80)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(923, 64)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
@@ -62,18 +61,19 @@ Partial Class Form6
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nirmala UI", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(213, 10)
+        Me.Label1.Location = New System.Drawing.Point(189, 8)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(129, 54)
+        Me.Label1.Size = New System.Drawing.Size(109, 46)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "PPDB"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(45, 9)
+        Me.PictureBox1.Location = New System.Drawing.Point(40, 7)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(66, 61)
+        Me.PictureBox1.Size = New System.Drawing.Size(59, 49)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
@@ -81,32 +81,22 @@ Partial Class Form6
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Info
-        Me.Panel1.Controls.Add(Me.Button8)
         Me.Panel1.Controls.Add(Me.Button9)
         Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button7)
-        Me.Panel1.Location = New System.Drawing.Point(0, 77)
+        Me.Panel1.Location = New System.Drawing.Point(0, 62)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(186, 490)
+        Me.Panel1.Size = New System.Drawing.Size(165, 392)
         Me.Panel1.TabIndex = 11
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(21, 126)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(128, 60)
-        Me.Button8.TabIndex = 8
-        Me.Button8.Text = "Alur Pendaftaran"
-        Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Red
         Me.Button9.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button9.Location = New System.Drawing.Point(21, 346)
+        Me.Button9.Location = New System.Drawing.Point(19, 93)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(128, 41)
+        Me.Button9.Size = New System.Drawing.Size(114, 33)
         Me.Button9.TabIndex = 9
         Me.Button9.Text = "Log Out"
         Me.Button9.UseVisualStyleBackColor = False
@@ -115,37 +105,20 @@ Partial Class Form6
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
         Me.Button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button5.Location = New System.Drawing.Point(21, 61)
+        Me.Button5.Location = New System.Drawing.Point(19, 36)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(128, 41)
+        Me.Button5.Size = New System.Drawing.Size(114, 33)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(21, 223)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(128, 31)
-        Me.Button6.TabIndex = 6
-        Me.Button6.Text = "Biodata"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(21, 287)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(128, 34)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "Dokumen"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(231, 122)
+        Me.Label2.Location = New System.Drawing.Point(205, 98)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(126, 20)
+        Me.Label2.Size = New System.Drawing.Size(107, 16)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Pilih Jalur Masuk"
         '
@@ -153,9 +126,10 @@ Partial Class Form6
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Jalur Prestasi", "Jalur Tes", "Jalur Non Tes"})
-        Me.ComboBox1.Location = New System.Drawing.Point(397, 122)
+        Me.ComboBox1.Location = New System.Drawing.Point(353, 98)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
+        Me.ComboBox1.Size = New System.Drawing.Size(108, 24)
         Me.ComboBox1.TabIndex = 13
         '
         'DataGridView1
@@ -166,11 +140,12 @@ Partial Class Form6
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colNama, Me.colStatus, Me.colFile, Me.colUpload, Me.colHapus})
-        Me.DataGridView1.Location = New System.Drawing.Point(192, 156)
+        Me.DataGridView1.Location = New System.Drawing.Point(171, 125)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(834, 394)
+        Me.DataGridView1.Size = New System.Drawing.Size(741, 315)
         Me.DataGridView1.TabIndex = 14
         '
         'colNama
@@ -221,14 +196,15 @@ Partial Class Form6
         '
         'Form6
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1038, 562)
+        Me.ClientSize = New System.Drawing.Size(923, 450)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form6"
         Me.Text = "Form6"
         Me.GroupBox1.ResumeLayout(False)
@@ -245,11 +221,8 @@ Partial Class Form6
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents DataGridView1 As DataGridView

@@ -6,8 +6,13 @@
                                                 MessageBoxIcon.Question)
 
         If result = DialogResult.Yes Then
-            Form1.Show()  'tampilkan login lagi
-            Me.Close()    'tutup form sekarang
+            Form1.Show()
+            Me.Close()
         End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Form2.Show()
+        Me.Hide()
     End Sub
 End Class

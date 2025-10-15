@@ -38,4 +38,16 @@
             Me.Close()    'tutup form sekarang
         End If
     End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
+
+    Private Sub GroupBox4_Enter_1(sender As Object, e As EventArgs) Handles GroupBox4.Enter
+
+    End Sub
 End Class
