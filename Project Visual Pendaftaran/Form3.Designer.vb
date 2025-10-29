@@ -33,17 +33,19 @@ Partial Class Form3
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Red
         Me.Button9.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button9.Location = New System.Drawing.Point(20, 497)
+        Me.Button9.Location = New System.Drawing.Point(20, 516)
         Me.Button9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(128, 41)
@@ -59,7 +61,7 @@ Partial Class Form3
         Me.Button5.Location = New System.Drawing.Point(-5, 28)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(179, 47)
+        Me.Button5.Size = New System.Drawing.Size(188, 47)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False
@@ -77,7 +79,7 @@ Partial Class Form3
         Me.Panel1.Location = New System.Drawing.Point(1, 72)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(177, 489)
+        Me.Panel1.Size = New System.Drawing.Size(177, 570)
         Me.Panel1.TabIndex = 10
         '
         'GroupBox1
@@ -120,9 +122,9 @@ Partial Class Form3
         Me.Button7.BackColor = System.Drawing.SystemColors.Info
         Me.Button7.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.SteelBlue
-        Me.Button7.Location = New System.Drawing.Point(-5, 351)
+        Me.Button7.Location = New System.Drawing.Point(-5, 340)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(179, 52)
+        Me.Button7.Size = New System.Drawing.Size(188, 52)
         Me.Button7.TabIndex = 12
         Me.Button7.Text = "Dokumen"
         Me.Button7.UseVisualStyleBackColor = False
@@ -132,9 +134,9 @@ Partial Class Form3
         Me.Button6.BackColor = System.Drawing.SystemColors.Info
         Me.Button6.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.SteelBlue
-        Me.Button6.Location = New System.Drawing.Point(-5, 265)
+        Me.Button6.Location = New System.Drawing.Point(-5, 259)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(179, 53)
+        Me.Button6.Size = New System.Drawing.Size(188, 53)
         Me.Button6.TabIndex = 11
         Me.Button6.Text = "Biodata " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Orang Tua"
         Me.Button6.UseVisualStyleBackColor = False
@@ -146,7 +148,7 @@ Partial Class Form3
         Me.Button1.ForeColor = System.Drawing.Color.SteelBlue
         Me.Button1.Location = New System.Drawing.Point(-5, 98)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(179, 48)
+        Me.Button1.Size = New System.Drawing.Size(188, 48)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Peminatan"
         Me.Button1.UseVisualStyleBackColor = False
@@ -158,27 +160,37 @@ Partial Class Form3
         Me.Button2.ForeColor = System.Drawing.Color.SteelBlue
         Me.Button2.Location = New System.Drawing.Point(-5, 180)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(179, 49)
+        Me.Button2.Size = New System.Drawing.Size(188, 49)
         Me.Button2.TabIndex = 13
         Me.Button2.Text = "Formulir " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Pendaftaran"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(208, 97)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
+        '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.Red
-        Me.Button3.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button3.Location = New System.Drawing.Point(20, 431)
+        Me.Button3.BackColor = System.Drawing.SystemColors.Info
+        Me.Button3.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Button3.Location = New System.Drawing.Point(-5, 416)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(128, 41)
+        Me.Button3.Size = New System.Drawing.Size(188, 52)
         Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Log Out"
+        Me.Button3.Text = "Cetak"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(932, 556)
+        Me.ClientSize = New System.Drawing.Size(932, 640)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -188,6 +200,7 @@ Partial Class Form3
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -202,5 +215,6 @@ Partial Class Form3
     Friend WithEvents Button6 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button3 As Button
 End Class
