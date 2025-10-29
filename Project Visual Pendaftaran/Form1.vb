@@ -31,7 +31,7 @@ Public Class Form1
             If Rd.HasRows Then
                 Rd.Read()
                 MessageBox.Show("Login berhasil! Selamat datang, " & Rd("nama") & "!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Form2.Show()
+                Form3.Show()
                 Me.Hide()
             Else
                 MessageBox.Show("Email atau password salah!", "Login Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error)
