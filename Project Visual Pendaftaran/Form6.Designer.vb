@@ -39,6 +39,7 @@ Partial Class Form6
         Me.ButtonNonTes = New System.Windows.Forms.Button()
         Me.ButtonTes = New System.Windows.Forms.Button()
         Me.ButtonPrestasi = New System.Windows.Forms.Button()
+        Me.status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -54,7 +55,7 @@ Partial Class Form6
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(923, 64)
+        Me.GroupBox1.Size = New System.Drawing.Size(1038, 80)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = " "
@@ -64,19 +65,19 @@ Partial Class Form6
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nirmala UI", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(189, 8)
+        Me.Label1.Location = New System.Drawing.Point(213, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(109, 46)
+        Me.Label1.Size = New System.Drawing.Size(129, 54)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "PPDB"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(40, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(45, 9)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(59, 49)
+        Me.PictureBox1.Size = New System.Drawing.Size(66, 61)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
@@ -86,20 +87,20 @@ Partial Class Form6
         Me.Panel1.BackColor = System.Drawing.SystemColors.Info
         Me.Panel1.Controls.Add(Me.Button9)
         Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Location = New System.Drawing.Point(0, 62)
+        Me.Panel1.Location = New System.Drawing.Point(0, 78)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(169, 392)
+        Me.Panel1.Size = New System.Drawing.Size(190, 490)
         Me.Panel1.TabIndex = 11
         '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Red
         Me.Button9.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button9.Location = New System.Drawing.Point(19, 336)
+        Me.Button9.Location = New System.Drawing.Point(21, 420)
         Me.Button9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(114, 33)
+        Me.Button9.Size = New System.Drawing.Size(128, 41)
         Me.Button9.TabIndex = 9
         Me.Button9.Text = "Log Out"
         Me.Button9.UseVisualStyleBackColor = False
@@ -109,10 +110,10 @@ Partial Class Form6
         Me.Button5.BackColor = System.Drawing.SystemColors.Info
         Me.Button5.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.SteelBlue
-        Me.Button5.Location = New System.Drawing.Point(-4, 7)
+        Me.Button5.Location = New System.Drawing.Point(-4, 9)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(181, 40)
+        Me.Button5.Size = New System.Drawing.Size(204, 50)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False
@@ -124,13 +125,13 @@ Partial Class Form6
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colNama, Me.colStatus, Me.colFile, Me.colUpload, Me.colHapus})
-        Me.DataGridView1.Location = New System.Drawing.Point(171, 178)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colNama, Me.colStatus, Me.colFile, Me.colUpload, Me.colHapus, Me.status})
+        Me.DataGridView1.Location = New System.Drawing.Point(192, 222)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(741, 262)
+        Me.DataGridView1.Size = New System.Drawing.Size(834, 328)
         Me.DataGridView1.TabIndex = 14
         '
         'colNama
@@ -183,9 +184,9 @@ Partial Class Form6
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(171, 90)
+        Me.Label4.Location = New System.Drawing.Point(192, 112)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(204, 21)
+        Me.Label4.Size = New System.Drawing.Size(241, 24)
         Me.Label4.TabIndex = 19
         Me.Label4.Text = "Pilih Jalur Pendaftaran"
         '
@@ -194,10 +195,10 @@ Partial Class Form6
         Me.ButtonNonTes.BackColor = System.Drawing.Color.LightSalmon
         Me.ButtonNonTes.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonNonTes.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.ButtonNonTes.Location = New System.Drawing.Point(566, 130)
+        Me.ButtonNonTes.Location = New System.Drawing.Point(637, 162)
         Me.ButtonNonTes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ButtonNonTes.Name = "ButtonNonTes"
-        Me.ButtonNonTes.Size = New System.Drawing.Size(155, 33)
+        Me.ButtonNonTes.Size = New System.Drawing.Size(174, 41)
         Me.ButtonNonTes.TabIndex = 18
         Me.ButtonNonTes.Text = "Non Tes"
         Me.ButtonNonTes.UseVisualStyleBackColor = False
@@ -207,10 +208,10 @@ Partial Class Form6
         Me.ButtonTes.BackColor = System.Drawing.Color.MediumAquamarine
         Me.ButtonTes.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonTes.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.ButtonTes.Location = New System.Drawing.Point(377, 130)
+        Me.ButtonTes.Location = New System.Drawing.Point(424, 162)
         Me.ButtonTes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ButtonTes.Name = "ButtonTes"
-        Me.ButtonTes.Size = New System.Drawing.Size(155, 33)
+        Me.ButtonTes.Size = New System.Drawing.Size(174, 41)
         Me.ButtonTes.TabIndex = 17
         Me.ButtonTes.Text = "Tes"
         Me.ButtonTes.UseVisualStyleBackColor = False
@@ -220,19 +221,26 @@ Partial Class Form6
         Me.ButtonPrestasi.BackColor = System.Drawing.Color.LightBlue
         Me.ButtonPrestasi.Font = New System.Drawing.Font("Tahoma", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonPrestasi.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.ButtonPrestasi.Location = New System.Drawing.Point(174, 130)
+        Me.ButtonPrestasi.Location = New System.Drawing.Point(196, 162)
         Me.ButtonPrestasi.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ButtonPrestasi.Name = "ButtonPrestasi"
-        Me.ButtonPrestasi.Size = New System.Drawing.Size(155, 33)
+        Me.ButtonPrestasi.Size = New System.Drawing.Size(174, 41)
         Me.ButtonPrestasi.TabIndex = 16
         Me.ButtonPrestasi.Text = "Prestasi"
         Me.ButtonPrestasi.UseVisualStyleBackColor = False
         '
+        'status
+        '
+        Me.status.HeaderText = "Status"
+        Me.status.MinimumWidth = 8
+        Me.status.Name = "status"
+        Me.status.Width = 150
+        '
         'Form6
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(923, 450)
+        Me.ClientSize = New System.Drawing.Size(1038, 562)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ButtonNonTes)
         Me.Controls.Add(Me.ButtonTes)
@@ -269,4 +277,5 @@ Partial Class Form6
     Friend WithEvents ButtonNonTes As Button
     Friend WithEvents ButtonTes As Button
     Friend WithEvents ButtonPrestasi As Button
+    Friend WithEvents status As DataGridViewTextBoxColumn
 End Class
