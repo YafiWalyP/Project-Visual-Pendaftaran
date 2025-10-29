@@ -21,7 +21,7 @@ Public Class Form1
 
         Try
             Call Koneksi()
-            Dim query As String = "SELECT * FROM tb_siswa WHERE email=@e AND password=@p"
+            Dim query As String = "SELECT * FROM tbl_akun WHERE email=@e AND password=@p"
             Cmd = New MySqlCommand(query, Conn)
             Cmd.Parameters.AddWithValue("@e", TextBoxEmail.Text)
             Cmd.Parameters.AddWithValue("@p", TextBoxPassword.Text)

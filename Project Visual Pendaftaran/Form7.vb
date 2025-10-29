@@ -18,17 +18,27 @@ Public Class Form7
 
         Try
             Call Koneksi()
-            Dim query As String = "INSERT INTO tb_siswa (nama, email, password) VALUES (@nama, @email, @password)"
+
+            ' Menentukan role default (misal: "siswa")
+            Dim role As String = "siswa"
+
+            ' Query sesuai struktur tabel kamu
+            Dim query As String = "INSERT INTO tbl_akun (nama, email, password, role, tgl_daftar) " &
+                                  "VALUES (@nama, @email, @password, @role, NOW())"
+
             Cmd = New MySqlCommand(query, Conn)
             Cmd.Parameters.AddWithValue("@nama", TextBoxNama.Text)
             Cmd.Parameters.AddWithValue("@email", TextBoxEmail.Text)
             Cmd.Parameters.AddWithValue("@password", TextBoxPassword.Text)
+            Cmd.Parameters.AddWithValue("@role", role)
 
             Cmd.ExecuteNonQuery()
+
             MessageBox.Show("Pendaftaran berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Me.Hide()
-            Form1.Show() ' kembali ke login
+            Form1.Show()
+
         Catch ex As Exception
             MessageBox.Show("Terjadi kesalahan: " & ex.Message)
         Finally
