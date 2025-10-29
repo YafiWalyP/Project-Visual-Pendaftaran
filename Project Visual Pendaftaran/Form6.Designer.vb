@@ -88,7 +88,7 @@ Partial Class Form6
         Me.Panel1.Location = New System.Drawing.Point(0, 78)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(186, 490)
+        Me.Panel1.Size = New System.Drawing.Size(190, 490)
         Me.Panel1.TabIndex = 11
         '
         'Button9
@@ -105,12 +105,13 @@ Partial Class Form6
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button5.Location = New System.Drawing.Point(21, 35)
+        Me.Button5.BackColor = System.Drawing.SystemColors.Info
+        Me.Button5.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Button5.Location = New System.Drawing.Point(-5, 9)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(128, 41)
+        Me.Button5.Size = New System.Drawing.Size(204, 50)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False

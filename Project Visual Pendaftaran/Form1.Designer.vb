@@ -127,7 +127,7 @@ Partial Class Form1
         Me.TextBoxPassword.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBoxPassword.Multiline = True
         Me.TextBoxPassword.Name = "TextBoxPassword"
-        Me.TextBoxPassword.Size = New System.Drawing.Size(342, 49)
+        Me.TextBoxPassword.Size = New System.Drawing.Size(342, 44)
         Me.TextBoxPassword.TabIndex = 7
         '
         'ButtonLogin
@@ -149,7 +149,7 @@ Partial Class Form1
         Me.TextBoxEmail.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBoxEmail.Multiline = True
         Me.TextBoxEmail.Name = "TextBoxEmail"
-        Me.TextBoxEmail.Size = New System.Drawing.Size(342, 49)
+        Me.TextBoxEmail.Size = New System.Drawing.Size(342, 39)
         Me.TextBoxEmail.TabIndex = 4
         '
         'Label4

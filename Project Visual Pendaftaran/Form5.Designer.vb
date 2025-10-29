@@ -36,7 +36,6 @@ Partial Class Form5
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -50,7 +49,6 @@ Partial Class Form5
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -107,12 +105,13 @@ Partial Class Form5
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button5.Location = New System.Drawing.Point(21, 24)
+        Me.Button5.BackColor = System.Drawing.SystemColors.Info
+        Me.Button5.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Button5.Location = New System.Drawing.Point(-8, 24)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(128, 41)
+        Me.Button5.Size = New System.Drawing.Size(208, 53)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Dashboard"
         Me.Button5.UseVisualStyleBackColor = False
@@ -149,7 +148,7 @@ Partial Class Form5
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(122, 168)
+        Me.Label4.Location = New System.Drawing.Point(115, 172)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(138, 20)
         Me.Label4.TabIndex = 15
@@ -185,44 +184,35 @@ Partial Class Form5
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(133, 380)
+        Me.Label8.Location = New System.Drawing.Point(157, 381)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(125, 20)
+        Me.Label8.Size = New System.Drawing.Size(85, 20)
         Me.Label8.TabIndex = 19
         Me.Label8.Tag = ""
-        Me.Label8.Text = "Nama Ayah Wali"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(146, 442)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(112, 20)
-        Me.Label9.TabIndex = 20
-        Me.Label9.Text = "Nama Ibu Wali"
+        Me.Label8.Text = "Nama Wali"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(88, 522)
+        Me.Label10.Location = New System.Drawing.Point(158, 435)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(172, 20)
+        Me.Label10.Size = New System.Drawing.Size(93, 20)
         Me.Label10.TabIndex = 21
-        Me.Label10.Text = "Alamat Orang Tua Wali"
+        Me.Label10.Text = "Alamat Wali"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label11.Location = New System.Drawing.Point(52, 606)
+        Me.Label11.Location = New System.Drawing.Point(125, 549)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(207, 20)
+        Me.Label11.Size = New System.Drawing.Size(128, 20)
         Me.Label11.TabIndex = 22
-        Me.Label11.Text = "No. Telepon Orang Tua Wali"
+        Me.Label11.Text = "No. Telepon Wali"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(274, 602)
+        Me.TextBox2.Location = New System.Drawing.Point(274, 546)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
@@ -247,10 +237,8 @@ Partial Class Form5
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.TextBox4)
         Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Controls.Add(Me.TextBox3)
         Me.Panel2.Controls.Add(Me.Label8)
         Me.Panel2.Controls.Add(Me.RichTextBox1)
-        Me.Panel2.Controls.Add(Me.Label9)
         Me.Panel2.Controls.Add(Me.TextBox2)
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Controls.Add(Me.Label11)
@@ -263,12 +251,12 @@ Partial Class Form5
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Lime
-        Me.Button2.Location = New System.Drawing.Point(604, 655)
+        Me.Button2.Location = New System.Drawing.Point(594, 658)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(109, 35)
         Me.Button2.TabIndex = 35
-        Me.Button2.Text = "NEXT"
+        Me.Button2.Text = "SIMPAN"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Label12
@@ -345,18 +333,9 @@ Partial Class Form5
         Me.TextBox4.Size = New System.Drawing.Size(439, 33)
         Me.TextBox4.TabIndex = 27
         '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(274, 432)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(439, 33)
-        Me.TextBox3.TabIndex = 26
-        '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(274, 488)
+        Me.RichTextBox1.Location = New System.Drawing.Point(274, 432)
         Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(439, 96)
@@ -397,13 +376,11 @@ Partial Class Form5
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents RichTextBox1 As RichTextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox9 As TextBox
