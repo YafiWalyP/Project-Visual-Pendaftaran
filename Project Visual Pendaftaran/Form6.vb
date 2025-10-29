@@ -24,7 +24,7 @@
     End Sub
 
 
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
         DataGridView1.Rows.Clear()
 
         Dim jalur As String = ComboBox1.SelectedItem.ToString()
@@ -77,5 +77,9 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Form2.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
