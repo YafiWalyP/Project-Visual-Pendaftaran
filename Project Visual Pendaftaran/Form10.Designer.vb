@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form10
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,10 +20,11 @@ Partial Class Form10
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form10))
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -46,16 +47,14 @@ Partial Class Form10
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -65,7 +64,6 @@ Partial Class Form10
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel2.Controls.Add(Me.Button6)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.TextBox6)
@@ -93,6 +91,17 @@ Partial Class Form10
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(698, 668)
         Me.Panel2.TabIndex = 15
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Yellow
+        Me.Button4.Location = New System.Drawing.Point(425, 602)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(109, 35)
+        Me.Button4.TabIndex = 21
+        Me.Button4.Text = "UBAH"
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -317,6 +326,30 @@ Partial Class Form10
         Me.Panel1.Size = New System.Drawing.Size(206, 665)
         Me.Panel1.TabIndex = 14
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.SystemColors.Info
+        Me.Button3.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Button3.Location = New System.Drawing.Point(15, 195)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(188, 49)
+        Me.Button3.TabIndex = 14
+        Me.Button3.Text = "Data Peminatan"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.Info
+        Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Button1.Location = New System.Drawing.Point(15, 123)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(188, 48)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "Verifikasi Dokumen"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.Red
@@ -377,55 +410,9 @@ Partial Class Form10
         Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.SystemColors.Info
-        Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.SteelBlue
-        Me.Button1.Location = New System.Drawing.Point(15, 123)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(188, 48)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Verifikasi Dokumen"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.SystemColors.Info
-        Me.Button3.Font = New System.Drawing.Font("Tahoma", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.SteelBlue
-        Me.Button3.Location = New System.Drawing.Point(15, 195)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(188, 49)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Data Peminatan"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.Yellow
-        Me.Button4.Location = New System.Drawing.Point(268, 602)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(109, 35)
-        Me.Button4.TabIndex = 21
-        Me.Button4.Text = "CANCEL"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
         'PrintDialog1
         '
         Me.PrintDialog1.UseEXDialog = True
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.Lime
-        Me.Button6.Location = New System.Drawing.Point(419, 602)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(109, 35)
-        Me.Button6.TabIndex = 22
-        Me.Button6.Text = "SIMPAN"
-        Me.Button6.UseVisualStyleBackColor = False
         '
         'Form10
         '
@@ -479,5 +466,4 @@ Partial Class Form10
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents PrintDialog1 As PrintDialog
-    Friend WithEvents Button6 As Button
 End Class
